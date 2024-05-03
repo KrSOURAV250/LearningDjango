@@ -1,5 +1,5 @@
 """
-URL configuration for LearningDjango project.
+URL configuration for TheProject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -19,4 +19,8 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
+    path('', admin.site.urls),
+=======
+>>>>>>> 3c00f1f020b2ce91dc2031447a7d02c898defc4f
 ]
